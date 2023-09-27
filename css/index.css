@@ -1,0 +1,101 @@
+* {
+  color: #666666;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif !important;
+  background-image: url(/celestial.png);
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 18px;
+}
+.container h1 span {
+  opacity: 0;
+}
+.container h1 img {
+  display: block;
+  width: 54vw;
+}
+
+.buttons {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.buttons li {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.buttons li button {
+  min-width: 80px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5333333333);
+  border: 1px solid #8a8a8a;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.buttons li button:hover {
+  background-color: rgba(186, 186, 186, 0.6784313725);
+  color: #FFF;
+  cursor: pointer;
+}
+
+.kumo {
+  background-color: rgba(225, 255, 250, 0.6784313725) !important;
+}
+.kumo:hover {
+  background-color: rgba(193, 255, 246, 0.6784313725) !important;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.b5 {
+  background-color: rgba(184, 234, 255, 0.5882352941) !important;
+}
+.b5:hover {
+  background-color: rgba(193, 224, 255, 0.6784313725) !important;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.ha {
+  background-color: rgba(255, 193, 226, 0.4705882353) !important;
+}
+.ha:hover {
+  background-color: rgba(255, 193, 226, 0.6784313725) !important;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.moon {
+  background-color: rgba(219, 206, 255, 0.4862745098) !important;
+}
+.moon:hover {
+  background-color: rgba(210, 193, 255, 0.6784313725) !important;
+  color: #FFF;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .container h1 img {
+    display: block;
+    width: 80vw;
+  }
+}/*# sourceMappingURL=index.css.map */

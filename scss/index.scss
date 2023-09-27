@@ -1,0 +1,101 @@
+* {
+    // font-size: 12px;
+    color: #666666;
+}
+html {
+
+}
+body {
+    
+    font-family: 'Noto Sans TC', sans-serif !important;
+    background-image: url(/celestial.png);
+    background-position: center;
+    background-repeat: repeat;
+   
+}
+.container {
+    max-width: 1200px;
+    padding: 18px;
+    // height: 100vh;
+    h1 {
+        span {
+            opacity: 0;
+        }
+        img {
+            display: block;
+            width: 54vw;
+        }
+    }
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    li button{
+        min-width: 80px;
+        height: 50px;
+        background-color: #ffffff88;
+        border: 1px solid #8a8a8a;
+        border-radius: 5px;
+        font-size: 16px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            background-color: #bababaad;
+            color: #FFF;
+            cursor: pointer;
+        }
+    }
+}
+.kumo {
+    background-color: #e1fffaad !important;
+    &:hover {
+        background-color: #c1fff6ad !important;
+        color: #FFF;
+        cursor: pointer;
+    }
+}
+.b5 {
+    background-color: #b8eaff96 !important;
+    &:hover {
+        background-color: #c1e0ffad !important;
+        color: #FFF;
+        cursor: pointer;
+    }
+}
+.ha {
+    background-color: #ffc1e278 !important;
+    &:hover {
+        background-color: #ffc1e2ad !important;
+        color: #FFF;
+        cursor: pointer;
+    }
+}
+.moon {
+    background-color: #dbceff7c !important;
+    &:hover {
+        background-color: #d2c1ffad !important;
+        color: #FFF;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      
+        h1 {
+          
+            img {
+                display: block;
+                width: 80vw;
+            }
+        }
+    }
+}
