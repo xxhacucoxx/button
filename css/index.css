@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 18px;
 }
 .container h1 span {
@@ -18,7 +18,7 @@ body {
 }
 .container h1 img {
   display: block;
-  width: 54vw;
+  width: 46vw;
 }
 
 .buttons {
@@ -39,8 +39,8 @@ body {
   background-color: rgba(255, 255, 255, 0.5333333333);
   border: 1px solid #8a8a8a;
   border-radius: 5px;
-  font-size: 16px;
-  padding: 20px;
+  font-size: 15px;
+  padding: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,6 +55,9 @@ body {
   background-color: rgba(186, 186, 186, 0.6784313725);
   color: #FFF;
   cursor: pointer;
+}
+.buttons li button:focus {
+  border: 1px solid #8a8a8a;
 }
 
 .kumo {
@@ -93,9 +96,28 @@ body {
   cursor: pointer;
 }
 
+.line-p {
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media screen and (max-width: 600px) {
   .container h1 img {
     display: block;
     width: 80vw;
+  }
+  li button {
+    min-width: 80px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.5333333333);
+    border: 1px solid #8a8a8a;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 12px;
   }
 }/*# sourceMappingURL=index.css.map */

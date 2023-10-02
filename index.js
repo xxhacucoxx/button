@@ -180,3 +180,90 @@ $('.p43').click(function() {
     $('#p43').get(0).play();
   
 })
+
+$('.p44').click(function() {
+    $('#p44').get(0).play();
+  
+})
+
+$('.p45').click(function() {
+    $('#p45').get(0).play();
+  
+})
+
+$('.p46').click(function() {
+    $('#p46').get(0).play();
+  
+})
+$('.p47').click(function() {
+    $('#p47').get(0).play();
+  
+})
+$('.p47').click(function() {
+    $('#p47').get(0).play();
+  
+})
+$('.p47').click(function() {
+    $('#p47').get(0).play();
+  
+})
+$('.p48').click(function() {
+    $('#p48').get(0).play();
+  
+})
+$('.p49').click(function() {
+    $('#p49').get(0).play();
+  
+})
+$('.p50').click(function() {
+    $('#p50').get(0).play();
+  
+})
+$('.p51').click(function() {
+    $('#p51').get(0).play();
+  
+})
+$('.p52').click(function() {
+    $('#p52').get(0).play();
+  
+})
+$('.p53').click(function() {
+    $('#p53').get(0).play();
+  
+})
+$('.p54').click(function() {
+    $('#p54').get(0).play();
+  
+})
+$('.p55').click(function() {
+    $('#p55').get(0).play();
+  
+})
+$('.p56').click(function() {
+    $('#p56').get(0).play();
+  
+})
+$('.p57').click(function() {
+    $('#p57').get(0).play();
+})
+$('.p58').click(function() {
+    $('#p58').get(0).play();
+})
+$('.p59').click(function() {
+    $('#p59').get(0).play();
+})
+$('.p60').click(function() {
+    $('#p60').get(0).play();
+})
+$('.p61').click(function() {
+    $('#p61').get(0).play();
+})
+$('.p62').click(function() {
+    $('#p62').get(0).play();
+})
+$('.p63').click(function() {
+    $('#p63').get(0).play();
+})
+$('.p64').click(function() {
+    $('#p64').get(0).play();
+})
